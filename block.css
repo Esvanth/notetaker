@@ -1,0 +1,91 @@
+* { 
+	padding: 0; 
+	margin: 0; 
+	box-sizing: border-box; 
+} 
+
+#main { 
+	width: 100%; 
+	min-height: 100vh; 
+	padding-bottom: 50px; 
+	background-color: #81ecec; 
+	display: flex; 
+	flex-wrap: wrap; 
+} 
+
+#addBtn { 
+	position: fixed; 
+	left: 18px; 
+	top: 10px; 
+	background-color: #2d3436; 
+	color: white; 
+	padding: 10px; 
+	border: 0; 
+	outline: 0; 
+	border-radius: 5px; 
+} 
+
+.btn { 
+	display: flex; 
+	justify-content: center; 
+	align-items: center; 
+	background-color: #81ecec; 
+	margin-top: 0px; 
+} 
+
+.note { 
+	width: 380px; 
+	height: 260px; 
+	background-color: white; 
+	margin: 15px; 
+	margin-top: 55px; 
+	border-radius: 10px; 
+	margin-left: 20px; 
+	margin-bottom: 30px; 
+} 
+
+.icons { 
+	width: 100%; 
+	background-color: #0d7390; 
+	color: white; 
+	padding: 5px; 
+	display: flex; 
+	justify-content: start; 
+	border-radius: 10px 10px 0px 0px; 
+} 
+
+.icons i { 
+	padding: 5px; 
+	cursor: pointer; 
+} 
+
+.note textarea { 
+	border: none; 
+	width: 100%; 
+	height: 87%; 
+	resize: none; 
+	padding: 10px; 
+	font-size: 18px; 
+	border-radius: 15px; 
+	background-color: beige; 
+	border-radius: 0px 0px 10px 10px; 
+} 
+
+.title-div textarea { 
+	border-radius: 0px 0px 0px 0px; 
+	margin-bottom: -4px; 
+	background-color: #a4cad4; 
+	font-weight: bolder; 
+	font-size: x-large; 
+} 
+
+.heading { 
+	position: fixed; 
+	margin-top: 46px; 
+	color: ivory; 
+} 
+
+.note textarea:focus { 
+	border: 0; 
+	outline: 0; 
+}
